@@ -1,0 +1,39 @@
+.todo-item {
+  list-style-type: none;
+  padding: 5px 10px; 
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0; 
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.High { color: #d9534f; } /* Red for high priority */
+.Medium { color: #f0ad4e; } /* Orange for medium priority */
+.Low { color: #5cb85c; } /* Green for low priority */
+
+.checkbox {
+  margin-right: 5px; 
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin-right: 10px; 
+}
+
+.crossed-out {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.priority-selector, .checkbox {
+  margin-left: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
